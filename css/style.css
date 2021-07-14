@@ -9,4 +9,9 @@ body{
     max-width:1000px;
     font-family: 'Rajdhani', sans-serif;
     margin:auto;
+    background-image:url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
 }
