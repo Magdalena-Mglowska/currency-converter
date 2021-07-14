@@ -1,0 +1,50 @@
+.form{
+    margin: auto;
+    width:500px;
+    margin-top:250px; 
+   
+}
+.form__fieldset{
+    margin: auto;
+    width:500px;
+    margin-top:250px; 
+    padding:20px;
+    border: 2px solid #a08bc9;
+    border-radius:20px;
+}
+.form__paragraph{
+    margin:auto;
+    padding:5px;
+   
+}
+.form__label{
+    color:#8C9EFF;
+    width:250px;
+    display:inline-block;
+    
+}
+.form__button{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding:5px;
+    color:white;
+    background-color:#8C9EFF;
+    border:1px solid#6666CC;
+    width: 100px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size:16px;
+}
+
+.form__input{
+    width:100%;
+    border:3px solid #a08bc9;
+    max-width: 500px;
+}
+.form__legend{
+    font-size: 22px;
+    color: #F9F9F9;
+    font-weight:bold;
+}
+.form__result{
+    color:#8C9EFF;
+}
