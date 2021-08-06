@@ -1,16 +1,28 @@
-let priceElement = document.querySelector(".form__js-input1");
-let amountElement = document.querySelector(".form__js-input2");
-let formElement = document.querySelector (".js-form");
-let resultElement = document.querySelector(".form__js-result");
+{
+    const updateResultText = (result) => {
+        const resultElement = document.querySelector(".form__js-result");
+        
+        resultElement.innerText = result.toFixed(2) + ' zł'};
 
-formElement.addEventListener("submit", (event)=>{
+const onFormSubmit= (event) => {
     event.preventDefault();
 
-let price = +priceElement.value;
-let amount = +amountElement.value;
+    const priceElement = document.querySelector(".form__js-input1");
+    const amountElement = document.querySelector(".form__js-input2");
+    
 
-let result = price*amount;
+    const price = +priceElement.value;
+    const amount = +amountElement.value;
 
-resultElement.innerText = result.toFixed(2) +' zł'; 
-});
+    const result = price * amount;
+    updateResultText(result);
 
+    };
+
+    const init = () => {
+        const formElement = document.querySelector(".js-form");
+
+        formElement.addEventListener("submit", onFormSubmit);
+    }
+init();
+}
