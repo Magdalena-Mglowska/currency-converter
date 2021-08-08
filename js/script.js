@@ -2,7 +2,7 @@
     const updateResultText = (result) => {
         const resultElement = document.querySelector(".form__js-result");
 
-        resultElement.innerText = result.toFixed(2) + ' zł'
+        resultElement.innerText = `${result.toFixed(2)} zł`
     };
 
     const onFormSubmit = (event) => {

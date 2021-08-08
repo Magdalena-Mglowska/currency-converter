@@ -6,12 +6,17 @@ html{
 }
 body{
     background-color:#262626;
-    max-width:1000px;
+    flex-basis:1000px;
     font-family: 'Rajdhani', sans-serif;
-    margin:auto;
     background-image:url("../images/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    margin:20px;
+    padding:5px;
 }
